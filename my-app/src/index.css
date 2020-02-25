@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.estilo li,
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.blue {
+  color: green;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.container-big {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
