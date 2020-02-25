@@ -77,11 +77,9 @@ export default class App extends React.Component {
       <div className="container">
   
         <Header user={this.state.user.userName} logout={this.logout} login={this.login}></Header>
-        
         {
           this.state.user.isLogged == true ?  <PostsList posts={this.state.posts}></PostsList> : <Formulario username={this.state.user.userName}  password={this.state.user.password}/>
         }
-
         <footer className="footer-container">By WemanConnect </footer>
       </div>
     );

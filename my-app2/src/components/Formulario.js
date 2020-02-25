@@ -11,7 +11,6 @@ export default function Formulario(props) {
       </div>
       
       <button type="submit">login</button>
-      <br></br>
     </form>
   );
 }
